@@ -16,12 +16,12 @@ function initMap(parsedLocations,parsedPhotoSets) {
       northEast = L.latLng(61.60639637, 52),
       bounds = L.latLngBounds(southWest, northEast);
 
-  map = L.map('map',{maxBounds: bounds,minZoom: 3.5}).setView([49.3208300, 8.4311100], 6);
+  map = L.map('map',{maxBounds: bounds,minZoom: 3}).setView([49.3208300, 8.4311100], 6);
 
   var stamen_TonerLite = L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.{ext}', {
     attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     subdomains: 'abcd',
-    minZoom: 0,
+    minZoom: 3,
     maxZoom: 20,
     ext: 'png'
   });

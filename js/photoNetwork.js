@@ -382,28 +382,28 @@ function showOverlayImage(photoLink, description, photoObject, photoSet) {
   imgContainer.appendChild(img);
 
   var close = document.createElement("img");
-  close.src = "/Data/close.svg";
+  close.src = "/Data/close.png";
   close.id = "photoClose";
   close.className = "closeImage";  
 
   imgContainer.appendChild(close);
 
   var rightButton = document.createElement("img");
-  rightButton.src = "/Data/right_arrow.svg";
+  rightButton.src = "/Data/right_arrow.png";
   rightButton.id = "nextButton";
   rightButton.className = "rightButton";  
 
   imgContainer.appendChild(rightButton);
 
   var leftButton = document.createElement("img");
-  leftButton.src = "/Data/left_arrow.svg";
+  leftButton.src = "/Data/left_arrow.png";
   leftButton.id = "previousButton";
   leftButton.className = "leftButton";  
 
   imgContainer.appendChild(leftButton);
 
   var save = document.createElement("img");
-  save.src = "/Data/save.svg";
+  save.src = "/Data/save.png";
   save.id = "photoSave";
   save.className = "saveImage";
 
