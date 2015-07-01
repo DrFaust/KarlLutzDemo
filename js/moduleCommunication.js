@@ -10,7 +10,7 @@ window.onload = function() {
 	savedPhotoObjects = getSavedPhotoObjects();
 
 	if (savedPhotoObjects) {
-		$("#startPage").append("<img src=/Data/save.png class=savedPhotosButton>");
+		$("#startPage").append("<img src=/KarlLutzDemo/Data/save.png class=savedPhotosButton>");
 
 		$(".savedPhotosButton").on('click',function(){
 
