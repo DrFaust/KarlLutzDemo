@@ -285,7 +285,7 @@ var PhotoSet = React.createClass({displayName: "PhotoSet",
 			React.createElement("div", {className: setClasses, styles: "position:relative"}, 
 				React.createElement("div", {className: "photoBox", ref: "photoBox", style: photoBoxStyles}, 
 					React.createElement("a", {className: "close", onClick: this.removePhotoBox}, "Close"), 
-					React.createElement("a", {className: "save", onClick: this.saveImage}, React.createElement("img", {className: "saveImage", src: "/Data/save.svg"}))
+					React.createElement("a", {className: "save", onClick: this.saveImage}, React.createElement("img", {className: "saveImage", src: "/Data/save.png"}))
 				), 
 				React.createElement("div", {className: "photos", ref: "photos"}, 
 					!this.state.showPhotoBox ? photos : null
